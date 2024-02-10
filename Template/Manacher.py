@@ -32,7 +32,7 @@ def manacher(s):
 
 print(manacher('ababbabb'))
 
-def longestPalindrome(s) -> str:
+def longestPalindrome(s):
     t = '#'.join('^{}$'.format(s))
     n = len(t)
     p = [0] * n
